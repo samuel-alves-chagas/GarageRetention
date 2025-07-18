@@ -63,3 +63,6 @@ build/
 hs_err_pid*
 replay_pid*
 >>>>>>> 3ecd77099f0be6c0fde2e3bdaeb831e2ca8b4379
+
+postgres-data
+*.env
