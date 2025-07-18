@@ -1,6 +1,6 @@
 package com.garage.controller;
 
-import com.garage.dto.Vehicle;
+import com.garage.domain.Vehicle.VehicleDTO;
 import com.garage.service.VehicleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -16,7 +16,7 @@ public class VehicleController {
     private VehicleService vehicleService;
 
     @PostMapping
-    public String addVehicle(@RequestBody Vehicle newVehicle) {
+    public String addVehicle(@RequestBody VehicleDTO newVehicle) {
         return vehicleService.addVehicle(newVehicle);
     }
 }
