@@ -1,1 +1,4 @@
-CREATE DATABASE garage_retention_database;
+CREATE TABLE vehicle (
+  id BIGSERIAL PRIMARY KEY,
+  model_name VARCHAR(100)
+);

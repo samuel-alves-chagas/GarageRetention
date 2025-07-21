@@ -1,4 +1,6 @@
 spring:
+  application:
+    name: garageRetention
   datasource:
     hikari:
       connection-test-query: SELECT 1
